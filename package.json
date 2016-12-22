@@ -4,7 +4,7 @@
   "description": "crud api for a blogging platform, using node and express",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server/server.js"
   },
   "keywords": [
     "node",
@@ -13,6 +13,9 @@
   "author": "Michiya",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "uuid": "^3.0.1"
   }
 }
